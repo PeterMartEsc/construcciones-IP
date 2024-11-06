@@ -1,8 +1,12 @@
 .nav-custom{
-    background-color: #e9ba73;
+    background-color: #a20020;
 
+}
+.breadcrum-custom{
+    background-color: #e74d49;
 }
 
 .principal{
-    background-color: #eece9d;
+    background-color: #bfd6b9;
+    height: 1000px;
 }
