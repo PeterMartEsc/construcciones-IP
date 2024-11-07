@@ -5,8 +5,10 @@
 .breadcrum-custom{
     background-color: #e74d49;
 }
+.footer-custom{
+    background-color: #e74d49;
+}
 
-.principal{
+body{
     background-color: #bfd6b9;
-    height: 1000px;
 }
