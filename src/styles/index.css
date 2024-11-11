@@ -18,10 +18,14 @@ body{
 .contact-form{
     width: 500px;
 
-    background-color: #828780;
+    background-color: #fcead0;
     border-radius: 10px;
 
     
+}
+
+.principal-contact{
+    padding-top: 80px;
 }
 
 /**
