@@ -9,6 +9,9 @@
 
 .footer-custom{
     background-color: #e74d49;
+    width: 100%;
+    color: white;
+    text-align: center;
 }
 
 body{
