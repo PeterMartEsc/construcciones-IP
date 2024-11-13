@@ -21,11 +21,28 @@
     padding: 10px;
 }
 
+.footer-contact{
+    background-color: #e74d49;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    padding: 10px;
+}
+
 .contact-form{
     width: 500px;
-
     background-color: #fcead0;
     border-radius: 10px;
+}
+
+.bg-kongo{
+    background-color: #fcead0;
 }
 
 #btn-goUp {
@@ -34,6 +51,7 @@
     right: 20px;
     display: none;
 
+    z-index: 1;
     /*background-color: #ebc99b;*/
 }
 
