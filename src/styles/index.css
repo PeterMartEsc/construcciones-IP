@@ -28,6 +28,15 @@
     border-radius: 10px;
 }
 
+#btn-goUp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+
+    /*background-color: #ebc99b;*/
+}
+
 body{
     background-color: #ebc99b;
 }
@@ -35,8 +44,6 @@ body{
 main{
     padding-bottom: 20px;
 }
-
-
 
 /**
 C63939
