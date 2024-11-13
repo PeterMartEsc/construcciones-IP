@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html --public-url /construcciones-IP/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
@@ -15,6 +16,7 @@
   "author": "Dario,Ismael,Pedro",
   "license": "ISC",
   "dependencies": {
-    "gh-pages": "^6.2.0"
+    "gh-pages": "^6.2.0",
+    "parcel": "^2.13.0"
   }
 }
