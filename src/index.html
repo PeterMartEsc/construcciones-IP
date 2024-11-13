@@ -11,32 +11,19 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-md nav-custom">
-
             <div class="container-fluid ms-3 me-3">
                 <img src="../images/icon.png" alt="Logo" width="30" height="30" class="me-1">
-
                 <a class="navbar-brand" href="index.html">Congo Gumi</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
                     <ul class="navbar-nav me-auto mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Portada</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./opiniones.html">Opiniones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contact.html">Contactanos</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.html">Portada</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./opiniones.html">Opiniones</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contact.html">Contactanos</a></li>
                     </ul>
-
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-light" type="submit">Search</button>
@@ -56,11 +43,90 @@
         <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-goUp">
             <i class="bi bi-arrow-up"></i>
         </button>
-        <div class="principal">
-            
+        
+        <div class="container mt-4">
+            <!-- Foto y Historia de Kongo Gumi -->
+            <section class="row mb-5">
+                <div class="col-md-6">
+                    <img src="../images/kongo_gumi.jpg" alt="Foto de Kongo Gumi" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h2>Historia de Kongo Gumi</h2>
+                    <p>
+                        <strong>Kongo Gumi</strong> es una empresa de construcción fundada en 578 d.C. en Japón, lo que la convierte en una de las empresas más antiguas del mundo. A lo largo de los siglos, ha estado especializada en la construcción de templos budistas y otros edificios tradicionales japoneses. A pesar de los desafíos del tiempo, Kongo Gumi ha mantenido su presencia y relevancia en la industria de la construcción japonesa.
+                    </p>
+                    <p>
+                        La compañía, sin embargo, sufrió una crisis económica que en enero de 2006 le llevó a la liquidación, liquidación que finalizó cuando sus activos fueron adquiridos por Takamatsu Corporation.2​3​ En el momento anterior a su liquidación la compañía contaba con más de 100 empleados y unos ingresos anuales de 7500 millones de yenes (unos 70 millones de dólares estadounidenses). El último presidente fue Masakazu Kongō, el quincuagésimo Kongō en dirigir la empresa.
+                        La empresa continúa operando como filial del grupo Takamatsu. 
+                    </p>
+                </div>
+            </section>
+            <!-- Estadísticas -->
+            <section class="py-5 rounded-3 mb-3">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="bi bi-person-fill fs-1 text-primary mb-3"></i>
+                                    <h4 class="card-title">Años de experiencia</h4>
+                                    <p class="card-text fs-3 fw-bold">1,400+</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="bi bi-check-circle-fill fs-1 text-success mb-3"></i>
+                                    <h4 class="card-title">Proyectos realizados</h4>
+                                    <p class="card-text fs-3 fw-bold">Más de 1,000</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow-sm border-0 rounded-3">
+                                <div class="card-body">
+                                    <i class="bi bi-geo-alt-fill fs-1 text-warning mb-3"></i>
+                                    <h4 class="card-title">Sedes</h4>
+                                    <p class="card-text fs-3 fw-bold">3 principales</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Sedes de la empresa -->
+            <section>
+                <h3>Sedes</h3>
+                <div class="row">
+                    <div class="col-md-3 text-center mb-4">
+                        <div class="position-relative overflow-hidden" style="height: 200px;">
+                            <img src="../images/sede_osaka.jpg" alt="Sede 1" class="img-fluid w-100 h-100 object-fit-cover rounded shadow">
+                        </div>
+                        <p>Sede en Osaka</p>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <div class="position-relative overflow-hidden" style="height: 200px;">
+                            <img src="../images/sede_tokio.jpg" alt="Sede 2" class="img-fluid w-100 h-100 object-fit-cover rounded shadow">
+                        </div>
+                        <p>Sede en Tokio</p>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <div class="position-relative overflow-hidden" style="height: 200px;">
+                            <img src="../images/sede_kyoto.jpg" alt="Sede 3" class="img-fluid w-100 h-100 object-fit-cover rounded shadow">
+                        </div>
+                        <p>Sede en Kyoto</p>
+                    </div>
+                    <div class="col-md-3 text-center mb-4">
+                        <div class="position-relative overflow-hidden" style="height: 200px;">
+                            <img src="../images/sede_nagoya.jpg" alt="Sede 4" class="img-fluid w-100 h-100 object-fit-cover rounded shadow">
+                        </div>
+                        <p>Sede en Nagoya</p>
+                    </div>
+                </div>
+            </section>            
         </div>
     </main>          
-
     <footer class="py-2 footer-custom">
         <ul class="nav justify-content-center border-bottom pb-2 mb-2 ">
             <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
@@ -71,6 +137,7 @@
         </ul>
         <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./js/buttonUp.js"></script>
 </body>
