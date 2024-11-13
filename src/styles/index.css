@@ -12,10 +12,13 @@
     width: 100%;
     color: white;
     text-align: center;
-}
 
-body{
-    background-color: #ebc99b;
+    /*position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;*/
+
+    padding: 10px;
 }
 
 .contact-form{
@@ -23,13 +26,17 @@ body{
 
     background-color: #fcead0;
     border-radius: 10px;
-
-    
 }
 
-.principal-contact{
-    padding-top: 80px;
+body{
+    background-color: #ebc99b;
 }
+
+main{
+    padding-bottom: 20px;
+}
+
+
 
 /**
 C63939
