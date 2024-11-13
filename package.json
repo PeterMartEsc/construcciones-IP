@@ -2,7 +2,6 @@
   "name": "construcciones-ip",
   "version": "1.0.0",
   "description": "En este trabajo realizaremos una pagina web de la tematica elegida. En nuestro caso ha sido una empresa constructora de templos Japoneses.",
-  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel build src/index.html --public-url /construcciones-IP/",
